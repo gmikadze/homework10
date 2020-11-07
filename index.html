@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="head-pic">
+        <img src="pics/bg@2x.png" alt="photo">
+    </div>
+    <div class="register">
+        <form action="action.php">
+            <div>
+                <div>
+                    <label for="name">Name</label>
+                </div>
+                <div class="reg">
+                    <input type="text" name="name" id="name" placeholder="First" class="sign">
+                    <input type="text" name="lastname" id="lastname" placeholder="Last" class="sign">
+                </div>
+            </div>
+            <div class="reg">
+                <div>
+                    <label for="email">Email</label>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="" class="sign">
+                </div>
+            </div>
+            <div class="reg">
+                <label for="phone">Phone</label>
+                <div>
+                    <input type="number" name="phone" id="phone" placeholder="### ### ###" class="sign">
+                </div>
+            </div>
+            <div class="check">
+                <h3 class="title">Hobbies</h3>
+                <div class="flex">
+                    <div class="column">
+                        <div class="reg">
+                            <input type="checkbox" name="checkbox" id="checkbox">
+                            <label for="checkbox">Reading</label>
+                        </div>
+                        <div class="reg">
+                            <input type="checkbox" name="checkbox" id="checkbox2">
+                            <label for="checkbox2">Dancing</label>
+                        </div>
+                        <div class="reg">
+                            <input type="checkbox" name="checkbox" id="checkbox3">
+                            <label for="checkbox3">Traveling</label>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="reg">
+                            <input type="checkbox" name="checkbox" id="checkbox4">
+                            <label for="checkbox4">Coding</label>
+                        </div>
+                        <div class="reg">
+                            <input type="checkbox" name="checkbox" id="checkbox5">
+                            <label for="checkbox5">Design</label>
+                        </div>
+                        <div class="reg">
+                            <input type="checkbox" name="checkbox" id="checkbox6">
+                            <label for="checkbox6">Other</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <label for="comment">And last, how did you hear about us?</label>
+                <textarea name="comment" id="comment">
+
+                </textarea>
+            </div>
+            <div class="but">
+                <button class="send">Send</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
