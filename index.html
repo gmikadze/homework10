@@ -8,77 +8,69 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="head-pic">
-        <img src="pics/bg@2x.png" alt="photo">
-    </div>
-    <div class="register">
-        <form action="action.php">
-            <div>
-                <div>
+    <div class="main">
+        <div class="head-pic">
+            <img src="pics/bg@2x.png" alt="photo">
+        </div>
+        <div class="register">
+            <form action="action.php">
+                <div class="reg">
                     <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="First" class="sign" required>
+                    <input type="text" name="lastname" id="lastname" placeholder="Last" class="sign" required>
                 </div>
                 <div class="reg">
-                    <input type="text" name="name" id="name" placeholder="First" class="sign">
-                    <input type="text" name="lastname" id="lastname" placeholder="Last" class="sign">
-                </div>
-            </div>
-            <div class="reg">
-                <div>
                     <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="" class="sign" required>
                 </div>
-                <div>
-                    <input type="email" name="email" id="email" placeholder="" class="sign">
+                <div class="reg">
+                    <label for="phone">Phone</label>
+                    <input type="number" name="phone" id="phone" placeholder="### ### ###" class="sign" required>
                 </div>
-            </div>
-            <div class="reg">
-                <label for="phone">Phone</label>
-                <div>
-                    <input type="number" name="phone" id="phone" placeholder="### ### ###" class="sign">
-                </div>
-            </div>
-            <div class="check">
-                <h3 class="title">Hobbies</h3>
-                <div class="flex">
-                    <div class="column">
-                        <div class="reg">
-                            <input type="checkbox" name="checkbox" id="checkbox">
-                            <label for="checkbox">Reading</label>
+                <div class="check">
+                    <h3 class="title">Hobbies</h3>
+                    <div class="flex">
+                        <div class="column">
+                            <div class="reg">
+                                <input class="tick" type="checkbox" name="checkbox" id="checkbox">
+                                <label for="checkbox">Reading</label>
+                            </div>
+                            <div class="reg">
+                                <input class="tick" type="checkbox" name="checkbox" id="checkbox2">
+                                <label for="checkbox2">Dancing</label>
+                            </div>
+                            <div class="reg">
+                                <input class="tick" type="checkbox" name="checkbox" id="checkbox3">
+                                <label for="checkbox3">Traveling</label>
+                            </div>
                         </div>
-                        <div class="reg">
-                            <input type="checkbox" name="checkbox" id="checkbox2">
-                            <label for="checkbox2">Dancing</label>
-                        </div>
-                        <div class="reg">
-                            <input type="checkbox" name="checkbox" id="checkbox3">
-                            <label for="checkbox3">Traveling</label>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="reg">
-                            <input type="checkbox" name="checkbox" id="checkbox4">
-                            <label for="checkbox4">Coding</label>
-                        </div>
-                        <div class="reg">
-                            <input type="checkbox" name="checkbox" id="checkbox5">
-                            <label for="checkbox5">Design</label>
-                        </div>
-                        <div class="reg">
-                            <input type="checkbox" name="checkbox" id="checkbox6">
-                            <label for="checkbox6">Other</label>
+                        <div class="column">
+                            <div class="reg">
+                                <input class="tick" type="checkbox" name="checkbox" id="checkbox4">
+                                <label for="checkbox4">Coding</label>
+                            </div>
+                            <div class="reg">
+                                <input class="tick" type="checkbox" name="checkbox" id="checkbox5">
+                                <label for="checkbox5">Design</label>
+                            </div>
+                            <div class="reg">
+                                <input class="tick" type="checkbox" name="checkbox" id="checkbox6">
+                                <label for="checkbox6">Other</label>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="comment">
-                <label for="comment">And last, how did you hear about us?</label>
-                <textarea name="comment" id="comment">
-
-                </textarea>
-            </div>
-            <div class="but">
-                <button class="send">Send</button>
-            </div>
-        </form>
+                <div class="comment">
+                    <label for="comment">And last, how did you hear about us?</label>
+                    <textarea name="comment" id="comment">
+    
+                    </textarea>
+                </div>
+                <div class="but">
+                    <button type="button" class="send"><a href="page2.html">Send</a></button>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
