@@ -70,7 +70,12 @@ input:focus, textarea:focus{
     /* padding: 10px 70px; */
 }
 .send a{
+    width: 100%;
     text-decoration: none;
     color: inherit;
     padding: 0 70px;
+}
+.send:hover{
+    background-color: darkmagenta;
+    color: inherit;
 }
